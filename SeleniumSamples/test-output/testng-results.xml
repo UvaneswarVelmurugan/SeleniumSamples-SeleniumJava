@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T13:14:06 IST" name="Suite" finished-at="2023-07-27T13:14:15 IST" duration-ms="8538">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T13:14:06 IST" name="Test" finished-at="2023-07-27T13:14:15 IST" duration-ms="8538">
+      <class name="WebActions.radioAndCheckAction">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:WebActions.radioAndCheckAction@6340e5f0]" started-at="2023-07-27T13:14:09 IST" name="Setup" finished-at="2023-07-27T13:14:10 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="clickingOnRadioButton()[pri:1, instance:WebActions.radioAndCheckAction@6340e5f0]" started-at="2023-07-27T13:14:14 IST" name="clickingOnRadioButton" finished-at="2023-07-27T13:14:14 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnRadioButton -->
+        <test-method signature="ClickingOnCheckBoxes()[pri:2, instance:WebActions.radioAndCheckAction@6340e5f0]" started-at="2023-07-27T13:14:14 IST" name="ClickingOnCheckBoxes" finished-at="2023-07-27T13:14:14 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingOnCheckBoxes -->
+        <test-method signature="ClickingOnDropDown(java.lang.String,java.lang.String)[pri:3, instance:WebActions.radioAndCheckAction@6340e5f0]" started-at="2023-07-27T13:14:14 IST" name="ClickingOnDropDown" finished-at="2023-07-27T13:14:15 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[option 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingOnDropDown -->
+        <test-method is-config="true" signature="tearout()[pri:0, instance:WebActions.radioAndCheckAction@6340e5f0]" started-at="2023-07-27T13:14:15 IST" name="tearout" finished-at="2023-07-27T13:14:15 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+      </class> <!-- WebActions.radioAndCheckAction -->
+      <class name="WebActions.login">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:WebActions.login@18df8434]" started-at="2023-07-27T13:14:06 IST" name="Setup" finished-at="2023-07-27T13:14:09 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="appInit(java.lang.String)[pri:1, instance:WebActions.login@18df8434]" started-at="2023-07-27T13:14:10 IST" name="appInit" finished-at="2023-07-27T13:14:12 IST" duration-ms="1899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://practicetestautomation.com/practice-test-login/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appInit -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:WebActions.login@18df8434]" started-at="2023-07-27T13:14:12 IST" name="loginTest" finished-at="2023-07-27T13:14:14 IST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearout()[pri:0, instance:WebActions.login@18df8434]" started-at="2023-07-27T13:14:15 IST" name="tearout" finished-at="2023-07-27T13:14:15 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+      </class> <!-- WebActions.login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
